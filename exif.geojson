@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UEU7ETG1",
+            "ModifyDate": "2020:08:16 17:14:32",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.00117096018735363,
+            "FNumber": 2.4,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:08:16 17:14:32",
+            "CreateDate": "2020:08:16 17:14:32",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 9.738,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "370622",
+            "SubSecTimeOriginal": "370622",
+            "SubSecTimeDigitized": "370622",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              45,
+              13,
+              43.3091
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              117,
+              16,
+              13.9908
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 2358.733,
+            "GPSTimeStamp": [
+              0,
+              14,
+              11
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:08:17"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1597622400000,
+        "gpsTimeStr": "Sun Aug 16 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1597623272000,
+        "imgTimeStr": "Sun Aug 16 2020 17:14:32 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/IceLakeMatterhorn/20200816_171432.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.27055299999999,
+          45.228696972222224,
+          2358.733
+        ]
+      }
+    }
+  ]
+}
