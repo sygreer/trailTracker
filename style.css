@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+-webkit-text-size-adjust:none;
+-ms-text-size-adjust:none;
+-moz-text-size-adjust:none;
+text-size-adjust:none;
+
+html { 
+    height: 100%;
+    line-height: small; 
+}
+
+* {
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    color: #242424;
+    max-height: 5000em;
+}
+
+body { 
+    background: #242424;
+}
+
+p { 
+    padding: 0 0 5px 0;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    line-height: 120%;
+}
+
+img { 
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    color: #242424;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+}
+
+h1 {
+    font-size:200%;
+    text-align:center;
+}
+
+h2 {
+    font-size:145%;
+}
+
+h3 {
+    font-size:115%;
+    text-align:left;
+    margin: 0;
+}
+
+h4 {
+    font-size:100%;
+    text-align:left;
+    margin: 0 0 0 0 ;
+    padding: 0;
+}
+
+a, a:hover { 
+    outline: none;
+    text-decoration: underline;
+    color: #000000;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+#me {
+    float: left;
+    margin: 5px 20px 5px 10px;
+    border: 1px solid #242424;
+    width: 275px;
+}
+
+.description {
+    margin: 5px 10px 30px 10px;
+    display: inline-block;
+}
+
+.proj {
+    height:200px; 
+    display: inline-block;
+}
+
+.proj a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.proj a:hover {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.proj img {
+    float: left;
+    margin: 10px 30px 10px 10px;
+    border: 1px solid #242424;
+    width:350px;
+}
+
+#main, #proc_canvas, #menubar, #content_box, #footer { 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#header { 
+    background: transparent;
+    height: 202px;
+}
+
+#proc_canvas { 
+    width: 845px;
+    position: relative;
+    height: 148px;
+}
+
+#proc_canvas #myname { 
+    position: absolute; 
+    top: 30px;
+    left: 20px;
+}
+
+#myname h1, #myname a {
+    font-size:55px;
+}
+
+#proc_canvas a {
+    text-decoration: none;
+}
+
+#proc_canvas a:hover {
+    font-style: normal;
+}
+
+#proc_canvas h1 { 
+    font-size: 55px;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+    margin: 0;
+}
+
+#myname h1, #myname h1 a, #myname h1 a:hover { padding: 22px 0 0 0;
+    color: #FFF;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+#menubar { 
+    width: 845px;
+    height: 52px;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+    background: transparent;
+} 
+
+ul#menu, ul#menu li { 
+    float: left;
+    margin: 0; 
+    padding: 0;
+}
+
+ul#menul, ul#menul li { 
+    float: right;
+    margin: 0; 
+    padding: 0;
+    margin-right: 3px;
+}
+
+ul#menu li, ul#menul li{ 
+    list-style: none;
+}
+
+ul#menu li a, ul#menul li a { 
+    letter-spacing: 0.1em;
+    font: normal 100%;
+    display: block; 
+    float: left; 
+    height: 17px;
+    margin: 17px 0 0 5px;
+    padding: 10px 15px 3px 15px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    background: #525252;
+} 
+
+ul#menu li a:hover, ul#menu li.current a, ul#menu li.current a:hover, ul#menul li a:hover, ul#menul li.current a, ul#menul li.current a:hover { 
+    color: #FFF;
+}
+
+ul#menu li.current a, ul#menul li.current a {
+    background: #242424;
+}
+
+#source {
+    position: absolute;
+    font-size: 13px;
+    color: #FFF;
+    float: right;
+    right: 5px;
+    top: 33px;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+#source a {
+    font-size: 13px;
+    color:#FFF;
+    text-decoration:none;
+}
+
+#content_box { 
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0 24px 20px 20px;
+    background: #FFF;
+} 
+
+#canvas_proj{ 
+    width: 1200px;
+    min-height: 1000px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0 24px 20px 20px;
+    background: #FFF;
+} 
+
+#canvas_proj canvas {
+    border: 2px solid black;
+    position: static;
+}
+
+#canvas_proj h2 {
+    text-align: center;
+}
+
+#content { 
+    text-align: left;
+    float: left;
+    width: 800px;
+    padding: 0;
+}
+
+#content ul { 
+    margin: 0px 0px 0px 0px;
+}
+
+#content ol{
+    text-indent: 10px;
+    margin: 0px 0px 0px 0px;
+    list-style-position: inside;
+}
+
+
+#content ul li { 
+    list-style-type: square;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 25px;
+    line-height: 1.0em;
+}
+
+#footer { 
+    width: 800;
+    font: normal 100%;
+    height: 33px;
+    font-size: 13px;
+    padding: 24px 0 5px 0;
+    text-align: center; 
+    background: transparent;
+    color: #FFF;
+    letter-spacing: 0.1em;
+}
+#footer:hover { 
+    font-style: normal;
+}
+
+#footer a { 
+    color: #FFF;
+    text-decoration: none;
+}
+
+#footer a:hover { 
+    color: #FFF;
+    text-decoration: underline;
+}
+  
+fieldset {
+    border: none;
+    margin: auto;
+    text-align: center;
+}
+
+.form { 
+    margin: 0 auto;
+}
+
+.form p { 
+    padding: 0 0 4px 0; 
+}
+
+.form span { 
+    float: left; 
+    width: 500px; 
+    text-align: left;
+}
+  
+.form input, .form textarea { 
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    width: 500px; 
+    border: 2px solid black;
+}
+
+.form button {
+    background-color: #525252;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.form button:hover {
+    background-color: #242424;
+}
+  
+.form .submit { 
+    width: 99px; 
+    height: 33px;
+    padding: 2px 0 3px 0;
+    cursor: pointer; 
+    display: inline-block;
+    text-align: center;
+}
+
+.form textarea, .form select { 
+    font: 100%; 
+    width: 500px;
+    height: 200px;
+}
+
+.form select { 
+    width: 310px;
+}
+
+table { 
+    margin: 10px 0 30px 0;
+}
+
+table tr th, table tr td { 
+    background: #242424;
+    color: #FFF;
+    padding: 7px 4px;
+    text-align: left;
+}
+  
+table tr td { 
+    background: #dddddd;
+    color: #242424;
+    border-top: 1px solid #FFF;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+}
+
+button {
+    background-color: #525252;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #242424;
+}
+
+ol + p {
+    margin-top: 10px;
+}
+
+.line_header {
+    padding: 0;
+    text-align: center;
+}
+
+.line_header span {
+    background:#fff; 
+    padding:0 10px;
+    font-size:100%;
+}
+.line_header h2 {
+    width: 100%;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 1px 0 20px;
+}
+
+.line_header p {
+    margin: 0;
+    text-align: left;
+}
+
+figure {
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+
+figcaption {
+    margin: 5px 20px 5px 10px;
+    border: 1px solid #242424;
+    width: 270px;
+    text-align: center;
+}
+
+.figure {
+    float: right;
+    width: 260px;
+    margin: 5px 0px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #242424;
+}
+
+.figure figcaption {
+    margin: 0;
+    border: 0;
+    text-align: center;
+    width: 260px;
+}
+
+.figure img {
+    width: 250px;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+.research {
+    text-align: justify;
+}
+
+.matrix_input {
+    text-align: center;
+    width: 390px;
+    float: left;
+}
+
+.matrix_input input{ 
+    padding: 5px 5px 5px 5px;
+    margin: 7.5px -5px 2.5px 10px;
+    width: 75px; 
+    height: 25px;
+    background-color: #cccccc;
+    border: 2px solid #cccccc;
+    text-align: center;
+    font-size:120%;
+    z-index: 2;
+    position: relative;
+}
+
+.matrix_input input:hover{
+    background-color: #bbbbbb;
+    border: 2px solid #bbbbbb;
+}
+
+.matrix_input input:focus{
+    background-color: #aaaaaa;
+    border: 2px solid #aaaaaa;
+}
+
+#b_mat #c_mat {
+    margin: 5px 0px 5px 0px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+#matrix {
+    float: left;
+}
+
+svg {
+    position: relative;
+}
+
+#eigenvalues input{
+    padding: 5px 5px 5px 5px;
+    margin: 7.5px -5px 2.5px 10px;
+    width: 145px; 
+    height: 25px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 19px; 
+}
+
+#eigenvalues {
+    font-size: 125%; 
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+    border: 3px solid #242424;
+    margin: 10px 10px 10px 10px;
+}
+
+#eigenvectors {
+    font-size: 125%; 
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+    border: 3px solid #242424;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 0 30px 55px;
+}
+
+.eigenvector input{
+    padding: 5px 5px 5px 5px;
+    margin: 7.5px -5px 2.5px 10px;
+    width: 145px; 
+    height: 25px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    text-align: center;
+}
+
+.eigenvector input:hover{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+#matrix_panel {
+    float: center;
+    height: 800px;
+}
+
+#matrix_panel canvas{
+    border: 3px solid #242424;
+}
+
+#A {
+    position: absolute;
+    text-align: left;
+    float: left;
+    margin: 30px 0 0 20px ;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#x1 {
+    position: absolute;
+    text-align: left;
+    float: left;
+    margin: 35px 0 0 0;
+    font-size: 125%;
+    font-weight: bold;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+    color:#00ff00;
+}
+
+#x2 {
+    position: absolute;
+    text-align: left;
+    float: left;
+    margin: 35px 0 0 0;
+    font-size: 125%;
+    font-weight: bold;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+    color:#0000ff;
+}
+
+#determinant input{
+    padding: 5px 5px 5px 5px;
+    margin: 7.5px -5px 2.5px 10px;
+    width: 75px; 
+    height: 25px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    text-align: center;
+    font-size: 100%;
+}
+#determinant {
+    font-size: 125%;
+    border: 3px solid #242424;
+    margin: 10px 10px 10px 10px;
+}
+
+.outline {
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+
+#about:before
+{
+    content: '?';
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 1.8ex;
+    height: 1.8ex;
+    font-size: 1.8ex;
+    line-height: 1.8ex;
+    border-radius: 1.2ex;
+    margin-right: 4px;
+    padding: 1px;
+    color: white;
+    background: #242424;
+    border-color: white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+#about:hover:before
+{
+    color: #242424;
+    background: white;
+    border-color: #242424;
+    text-decoration: none;
+    font-style: normal;
+}
+
+#about {
+    position: absolute;
+    color: #FFF;
+    float: right;
+    right: -0px;
+    top: -145px;
+}
+
+#about a {
+    color:#FFF;
+    text-decoration:none;
+}
+
+code {
+    font-family: monospace;
+    background-color: #eeeeee;
+    border: 1px dashed #999999;
+    color: black;
+    line-height: 1.1em;
+    padding: 0.3em;
+}
+
+.socials {
+    text-align:center;
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin: 0 0 0 0 ;
+    padding: 0;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+    border-radius: 2em;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-icon{
+    padding:10px 14px;
+    color:#fff;
+    background-color: #525252;
+}
+.fa-icon:hover {
+    background-color: #242424;
+}
+
+.copy-left { 
+    display: inline-block; 
+    text-align: right; 
+    margin: 0px; 
+    -moz-transform: scaleX(-1); 
+    -o-transform: scaleX(-1); 
+    -webkit-transform: scaleX(-1); 
+    transform: scaleX(-1); 
+    filter: FlipH; 
+    -ms-filter: "FlipH"; 
+    color:white;
+    font-size:135%;
+}

@@ -18,9 +18,11 @@ FT_TO_MI = 1.0/5280
 # Parsing an existing file:
 # -------------------------
 
-fileName = '/home/sarah/sygreer/hiking/gpx/IceLakeMatterhorn.gpx'
+#fileName = '/home/sarah/sygreer/hiking/gpx/IceLakeMatterhorn.gpx'
+fileName = 'hikes/IceLakeMatterhorn/IceLakeMatterhorn.gpx'
 gpx_file = open(fileName, 'r')
-nameProj = os.path.splitext(os.path.basename(fileName))[0]
+projName = os.path.splitext(os.path.basename(fileName))[0]
+dirName = os.path.dirname(fileName)
 
 gpx = gpxpy.parse(gpx_file)
 nameRecording = gpx.name
@@ -83,14 +85,18 @@ df['dis_dif_hav_2d'] = dist_dif_hav_2d
 df['spd'] = (df['dis_dif_hav_2d'] / df['time_dif']) * 3.6 * 0.621371 # speed in mph
 
 
-print('Haversine 3D : ', dist_hav[-1])
-print('Total Time : ', floor(sum(time_dif)/60),' min ', int(sum(time_dif)%60),' sec ')
+#print('Haversine 3D : ', dist_hav[-1])
+print('Distance : ', dist_hav[-1], " miles")
+#print('Total Time : ', floor(sum(time_dif)/60),' min ', int(sum(time_dif)%60),' sec ')
+print('Total Time : ', floor(sum(time_dif)/60/60),' hours ', floor(sum(time_dif)/60%60),' min ', int(sum(time_dif)%60),' sec ')
 
 fig = px.line_3d(df, x='lon', y='lat', z='alt', labels={'lon':'Longitude', 'lat':'Latitude', 'alt':'Elevation (feet)'})
 #fig = px.Scatter3D(df, x='lon', y='lat', z='alt', labels={'lon':'Longitude', 'lat':'Latitude', 'alt':'Elevation (feet)'}, marker=dict(size=1, color=df['spd'], colorscale="Viridis"))
 #fig.show()
-fig.write_html("%s_3d.html"%nameProj)
+#fig.write_html("%s_3d.html"%nameProj)
+fig.write_html("%s/3d.html"%dirName)
 
 fig2 = px.line(df, x='dis_hav_3d', y='alt', labels={'dis_hav_3d':'Distance (miles)', 'alt':'Altitude (feet)'})
-fig2.write_html("%s_elev.html"%nameProj)
+#fig2.write_html("%s_elev.html"%nameProj)
+fig2.write_html("%s/elev.html"%dirName)
 
