@@ -1,34 +1,98 @@
+<!DOCTYPE html>
+
 <html>
-  <head>
-    <title>
-      Hiking | Sarah Greer
-    </title>
-    <link rel="stylesheet" type="text/css" href="../../style.css" title="style" />
-  </head>
-  <body>
+
+<head>
+    <title>Hiking & Travel | Sarah Greer</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+            $("#hikes").load("hikes.html"); 
+        });
+    </script> 
+
+</head>
+
+<body>
     <div id="canvas_proj" style="width: 850px;">
-      <div id="nav">
-        <a href="../">
-          <button type="submit">
-            &amp;#8592; Back home
-          </button>
-        </a>
-      </div>
-      <h1>
-        Hiking and Travel
-      </h1>
-      <br />
-      <div style="text-align:center;">
-        <iframe src="map.html" width="850" height="800"></iframe>
-        <iframe src="3d.html" width="850" height="800"></iframe>
-        <iframe src="elev.html" width="850" height="800"></iframe>
-      </div>
-      <p id="main">
-        some text
-      </p>
-      <a href="/my-url">
-        some link
-      </a>
+        <div id="nav">
+            <a href="../"><button type="submit">&#8592; Back home</button></a>
+        </div>
+        <h1>Hiking & Travel</h1>
+        <br>
+
+        <h2>About</h2>
+        <p>
+        I recording some hikes starting in 2018, and then started recording almost all hikes in summer 2020. This page contains data about all of my recorded hikes, including statistics and pictures.
+        I made these web pages with a package I developed, <a href="https://github.com/sygreer/trailTracker">trailTracker</a>. The maps are made using <a href="https://leafletjs.com/">Leaflet</a>, and also rely on modified versions of <a href="https://github.com/mpetazzoni/leaflet-gpx">Leaflet GPX</a> and <a href="https://github.com/hallahan/exif-to-geojson">EXIF to GeoJSON</a>. On each hike's page, the data are processed in Python primarily using <a href="https://github.com/tkrajina/gpxpy">gpxpy</a> and are plotted using <a href="https://plotly.com/">Plotly</a>.
+        </p>
+        <br/>
+        <div style="text-align: center;">
+            <iframe src="map.html" width="850" height="800"></iframe>
+            <a href="map.html"><button type="submit">View this map full screen</button></a>
+        </div>
+
+        <br/>
+
+        <h2>Hikes</h2>
+        <div id="hikes"></div>
+        <h2>Maps</h2>
+        <p>I have made a few maps for the backpacking trips which required more planning using <a href="https://caltopo.com/">Caltopo</a>, which are available for download here.</p>
+        <table class="tg" style="margin-right:auto; margin-left:auto;">
+          <tr>
+            <th class="tg-yw4l">Name<br></th>
+            <th class="tg-yw4l">Number of Nights</th>
+            <th class="tg-yw4l" style="text-align:center">Download</th>
+          </tr>
+          <tr>
+            <td class="tg-yw4l">McKenzie River Trail<br></td>
+            <td class="tg-yw4l" style="text-align:center"> 
+                2
+            </td>
+            <td class="tg-yw4l" style="text-algin:center"> 
+                <a href="maps/McKenzieRiverTrail.pdf">Map (pdf)</a><br>
+                <a href="maps/McKenzieRiverTrailProfile.pdf">Profile (pdf)</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="tg-yw4l">Ice Lake and Matterhorn<br></td>
+            <td class="tg-yw4l" style="text-align:center"> 
+                1
+            </td>
+            <td class="tg-yw4l" rowspan="2" style="text-align:center">
+                <a href="maps/EagleCapWilderness.pdf">Map (pdf)</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="tg-yw4l">Lakes Basin and Eagle Cap<br></td>
+            <td class="tg-yw4l" style="text-align:center"> 
+                3
+            </td>
+          </tr>
+        </table>
     </div>
-  </body>
+    <div id="footer">
+            This website is hosted on a Raspberry Pi in Eugene, Oregon :)
+            <br>
+            Last modified August 24th, 2020 by sarah@beefmaster.
+            <br>
+            <br>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li><a href="https://twitter.com/sygreer" class="social-icon"> <i class="fa fa-twitter fa-icon"></i></a></li>
+                    <li><a href="https://www.facebook.com/sarahygreer" class="social-icon"> <i class="fa fa-facebook fa-icon"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/sygreer/" class="social-icon"> <i class="fa fa-linkedin fa-icon"></i></a></li>
+                </ul>
+            </div>
+            <br>
+   </div>
+</body>
+
 </html>

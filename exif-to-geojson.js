@@ -120,7 +120,7 @@ function processImage(imgPath, cb) {
 
 console.log('Reading images in img directory...');
 var files = getAllFiles("./hikes");
-console.log(files);
+//console.log(files);
 
 
 /**

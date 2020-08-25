@@ -6,6 +6,3266 @@
       "properties": {
         "exif": {
           "image": {
+            "ImageWidth": 3264,
+            "ImageHeight": 2448,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 3,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:29 18:04:05",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 658
+          },
+          "thumbnail": {
+            "ImageWidth": 512,
+            "ImageHeight": 384,
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 878,
+            "ThumbnailLength": 56976
+          },
+          "exif": {
+            "ExposureTime": 0.008403361344537815,
+            "FNumber": 1.7,
+            "ExposureProgram": 2,
+            "ISO": 40,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:29 18:04:05",
+            "CreateDate": "2020:05:29 18:04:05",
+            "ShutterSpeedValue": 0.008403361344537815,
+            "ApertureValue": 1.53,
+            "BrightnessValue": 12.14,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.53,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 2.92,
+            "ColorSpace": 1,
+            "ExifImageWidth": 3264,
+            "ExifImageHeight": 2448,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "DigitalZoomRatio": 0.01,
+            "FocalLengthIn35mmFormat": 25,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "W08QSKF00PM"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              22,
+              38.68788
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              121,
+              59,
+              48.41808
+            ]
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590800645000,
+        "gpsTimeStr": "Fri May 29 2020 18:04:05 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590800645000,
+        "imgTimeStr": "Fri May 29 2020 18:04:05 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200529_180407.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9967828,
+          44.3774133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 3264,
+            "ImageHeight": 2448,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:30 10:13:02",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 658
+          },
+          "thumbnail": {
+            "ImageWidth": 512,
+            "ImageHeight": 384,
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 878,
+            "ThumbnailLength": 58297
+          },
+          "exif": {
+            "ExposureTime": 0.00558659217877095,
+            "FNumber": 1.7,
+            "ExposureProgram": 2,
+            "ISO": 40,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:30 10:13:02",
+            "CreateDate": "2020:05:30 10:13:02",
+            "ShutterSpeedValue": 0.00558659217877095,
+            "ApertureValue": 1.53,
+            "BrightnessValue": 13.91,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.53,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 2.92,
+            "ColorSpace": 1,
+            "ExifImageWidth": 3264,
+            "ExifImageHeight": 2448,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "DigitalZoomRatio": 0.01,
+            "FocalLengthIn35mmFormat": 25,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "W08QSKF00PM"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              20,
+              56.496839
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              121,
+              59,
+              51.065159
+            ]
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590858782000,
+        "gpsTimeStr": "Sat May 30 2020 10:13:02 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590858782000,
+        "imgTimeStr": "Sat May 30 2020 10:13:02 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200530_101304.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99751809972223,
+          44.349026899722226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 3264,
+            "ImageHeight": 2448,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 3,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:30 10:33:32",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 658
+          },
+          "thumbnail": {
+            "ImageWidth": 512,
+            "ImageHeight": 384,
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 878,
+            "ThumbnailLength": 57271
+          },
+          "exif": {
+            "ExposureTime": 0.02564102564102564,
+            "FNumber": 1.7,
+            "ExposureProgram": 2,
+            "ISO": 160,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:30 10:33:32",
+            "CreateDate": "2020:05:30 10:33:32",
+            "ShutterSpeedValue": 0.02564102564102564,
+            "ApertureValue": 1.53,
+            "BrightnessValue": 3.36,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.53,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 2.92,
+            "ColorSpace": 1,
+            "ExifImageWidth": 3264,
+            "ExifImageHeight": 2448,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "DigitalZoomRatio": 0.01,
+            "FocalLengthIn35mmFormat": 25,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "W08QSKF00PM"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              20,
+              34.244879
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              0,
+              14.9688
+            ]
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590860012000,
+        "gpsTimeStr": "Sat May 30 2020 10:33:32 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590860012000,
+        "imgTimeStr": "Sat May 30 2020 10:33:32 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200530_103333.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.004158,
+          44.34284579972223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 3264,
+            "ImageHeight": 2448,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 3,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:31 14:17:17",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 658
+          },
+          "thumbnail": {
+            "ImageWidth": 512,
+            "ImageHeight": 384,
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 878,
+            "ThumbnailLength": 53491
+          },
+          "exif": {
+            "ExposureTime": 0.004761904761904762,
+            "FNumber": 1.7,
+            "ExposureProgram": 2,
+            "ISO": 40,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:31 14:17:17",
+            "CreateDate": "2020:05:31 14:17:17",
+            "ShutterSpeedValue": 0.004761904761904762,
+            "ApertureValue": 1.53,
+            "BrightnessValue": 14.41,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.53,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 2.92,
+            "ColorSpace": 1,
+            "ExifImageWidth": 3264,
+            "ExifImageHeight": 2448,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "DigitalZoomRatio": 0.01,
+            "FocalLengthIn35mmFormat": 25,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "W08QSKF00PM"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              10,
+              47.07084
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              6,
+              55.232279
+            ]
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590959837000,
+        "gpsTimeStr": "Sun May 31 2020 14:17:17 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590959837000,
+        "imgTimeStr": "Sun May 31 2020 14:17:17 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200531_141718.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.11534229972222,
+          44.179741899999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 3264,
+            "ImageHeight": 2448,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:31 14:09:52",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 658
+          },
+          "thumbnail": {
+            "ImageWidth": 512,
+            "ImageHeight": 384,
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 878,
+            "ThumbnailLength": 58234
+          },
+          "exif": {
+            "ExposureTime": 0.02564102564102564,
+            "FNumber": 1.7,
+            "ExposureProgram": 2,
+            "ISO": 40,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:31 14:09:52",
+            "CreateDate": "2020:05:31 14:09:52",
+            "ShutterSpeedValue": 0.02564102564102564,
+            "ApertureValue": 1.53,
+            "BrightnessValue": 8.26,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.53,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 2.92,
+            "ColorSpace": 1,
+            "ExifImageWidth": 3264,
+            "ExifImageHeight": 2448,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "DigitalZoomRatio": 0.01,
+            "FocalLengthIn35mmFormat": 25,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "W08QSKF00PM"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              10,
+              53.556959
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              6,
+              50.847839
+            ]
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590959392000,
+        "gpsTimeStr": "Sun May 31 2020 14:09:52 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590959392000,
+        "imgTimeStr": "Sun May 31 2020 14:09:52 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200531_140954.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.11412439972221,
+          44.18154359972222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:29 18:30:13",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.0012690355329949238,
+            "FNumber": 2.4,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:29 18:30:13",
+            "CreateDate": "2020:05:29 18:30:13",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 9.621,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "072632",
+            "SubSecTimeOriginal": "072632",
+            "SubSecTimeDigitized": "072632",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              22,
+              5.5163
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              121,
+              59,
+              27.4667
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 899.075,
+            "GPSTimeStamp": [
+              1,
+              30,
+              12
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:05:30"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590802213000,
+        "imgTimeStr": "Fri May 29 2020 18:30:13 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200529_183013.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99096297222222,
+          44.368198972222224,
+          899.075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTE1",
+            "ModifyDate": "2020:07:03 16:58:50",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 800
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.001557632398753894,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:03 16:58:50",
+            "CreateDate": "2020:07:03 16:58:50",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 9.327,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 7.57,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "692496",
+            "SubSecTimeOriginal": "692496",
+            "SubSecTimeDigitized": "692496",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 770,
+            "SensingMethod": 1,
+            "SceneType": 1,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              28.836
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              13.3655
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1898.121,
+            "GPSTimeStamp": [
+              23,
+              58,
+              31
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:03"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1593734400000,
+        "gpsTimeStr": "Thu Jul 02 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593820730000,
+        "imgTimeStr": "Fri Jul 03 2020 16:58:50 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/20200703_165850.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68704597222222,
+          44.308009999999996,
+          1898.121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 3,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.4.1",
+            "ModifyDate": "2020:05:30 10:13:35",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1864
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2232,
+            "ThumbnailLength": 11681
+          },
+          "exif": {
+            "ExposureTime": 0.008264462809917356,
+            "FNumber": 2.2,
+            "ExposureProgram": 2,
+            "ISO": 40,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:05:30 10:13:35",
+            "CreateDate": "2020:05:30 10:13:35",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 6.924541304160565,
+            "ApertureValue": 2.2750070475474535,
+            "BrightnessValue": 6.048687304075235,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 2.87,
+            "SubSecTimeOriginal": "868",
+            "SubSecTimeDigitized": "868",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 3088,
+            "ExifImageHeight": 2316,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 32,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              2.87,
+              2.87,
+              2.2,
+              2.2
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR front camera 2.87mm f/2.2"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              20,
+              55.78
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              121,
+              59,
+              51.73
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 881.9894957983194,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 42.38490297311732,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 222.3849028400598,
+            "GPSDateStamp": "2020:05:30",
+            "GPSHPositioningError": 4.578889256928343
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590858815000,
+        "imgTimeStr": "Sat May 30 2020 10:13:35 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/IMG_8647.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99770277777777,
+          44.34882777777778,
+          881.9894957983194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.5.1",
+            "ModifyDate": "2020:07:03 18:57:30",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1864
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2232,
+            "ThumbnailLength": 10508
+          },
+          "exif": {
+            "ExposureTime": 0.0029850746268656717,
+            "FNumber": 2.2,
+            "ExposureProgram": 2,
+            "ISO": 16,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:07:03 18:57:30",
+            "CreateDate": "2020:07:03 18:57:30",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 8.386121383510986,
+            "ApertureValue": 2.2750070475474535,
+            "BrightnessValue": 8.65562380424932,
+            "ExposureCompensation": 0,
+            "MeteringMode": 3,
+            "Flash": 24,
+            "FocalLength": 2.87,
+            "SubSecTimeOriginal": "587",
+            "SubSecTimeDigitized": "587",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 3088,
+            "ExifImageHeight": 2316,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 32,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              2.87,
+              2.87,
+              2.2,
+              2.2
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR front camera 2.87mm f/2.2"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              29.08
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              13.41
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1911.1091405184175,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0.150402486717516,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 177.8981324278438,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 357.8981324278438,
+            "GPSDateStamp": "2020:07:04",
+            "GPSHPositioningError": 4.408250014967371
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1593820800000,
+        "gpsTimeStr": "Fri Jul 03 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593827850000,
+        "imgTimeStr": "Fri Jul 03 2020 18:57:30 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/IMG_8898.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68705833333334,
+          44.308077777777775,
+          1911.1091405184175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 3,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.4.1",
+            "ModifyDate": "2020:05:30 12:30:09",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1864
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2232,
+            "ThumbnailLength": 12294
+          },
+          "exif": {
+            "ExposureTime": 0.016666666666666666,
+            "FNumber": 2.2,
+            "ExposureProgram": 2,
+            "ISO": 160,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:05:30 12:30:09",
+            "CreateDate": "2020:05:30 12:30:09",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 5.916502041353879,
+            "ApertureValue": 2.2750070475474535,
+            "BrightnessValue": 2.8385123614663255,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 2.87,
+            "SubSecTimeOriginal": "873",
+            "SubSecTimeDigitized": "873",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 3088,
+            "ExifImageHeight": 2316,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 32,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              2.87,
+              2.87,
+              2.2,
+              2.2
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR front camera 2.87mm f/2.2"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              44.59
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              1,
+              36.79
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 721.3460076045627,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 157.539306640625,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 337.5393068469992,
+            "GPSDateStamp": "2020:05:30",
+            "GPSHPositioningError": 4.600193394822969
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590867009000,
+        "imgTimeStr": "Sat May 30 2020 12:30:09 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/IMG_8665.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.02688611111111,
+          44.31238611111111,
+          721.3460076045627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTE1",
+            "ModifyDate": "2020:07:04 13:39:33",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 800
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.00088261253309797,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:04 13:39:33",
+            "CreateDate": "2020:07:04 13:39:33",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 10.145,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 8.39,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "682930",
+            "SubSecTimeOriginal": "682930",
+            "SubSecTimeDigitized": "682930",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 770,
+            "SensingMethod": 1,
+            "SceneType": 1,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              34.6212
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              40,
+              55.4519
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1905.752,
+            "GPSTimeStamp": [
+              20,
+              39,
+              34
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:04"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1593820800000,
+        "gpsTimeStr": "Fri Jul 03 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593895173000,
+        "imgTimeStr": "Sat Jul 04 2020 13:39:33 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/20200704_133933.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68206997222222,
+          44.309616999999996,
+          1905.752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 3,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.5.1",
+            "ModifyDate": "2020:07:04 12:15:39",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1864
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2232,
+            "ThumbnailLength": 13554
+          },
+          "exif": {
+            "ExposureTime": 0.008264462809917356,
+            "FNumber": 2.2,
+            "ExposureProgram": 2,
+            "ISO": 25,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:07:04 12:15:39",
+            "CreateDate": "2020:07:04 12:15:39",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 6.924541304160565,
+            "ApertureValue": 2.2750070475474535,
+            "BrightnessValue": 6.77363980215304,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 2.87,
+            "SubSecTimeOriginal": "291",
+            "SubSecTimeDigitized": "291",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 3088,
+            "ExifImageHeight": 2316,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 32,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              2.87,
+              2.87,
+              2.2,
+              2.2
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR front camera 2.87mm f/2.2"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              17,
+              45.41
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              35.02
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 2072.0277529095792,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 178.54849225753873,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 358.5484922575387,
+            "GPSDateStamp": "2020:07:04",
+            "GPSHPositioningError": 6.093963933878777
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1593820800000,
+        "gpsTimeStr": "Fri Jul 03 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593890139000,
+        "imgTimeStr": "Sat Jul 04 2020 12:15:39 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/IMG_8915.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.69306111111112,
+          44.29594722222222,
+          2072.0277529095792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTE1",
+            "ModifyDate": "2020:07:04 20:31:29",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 800
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.016666666666666666,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 125,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:04 20:31:29",
+            "CreateDate": "2020:07:04 20:31:29",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 5.906,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 2.9,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "702271",
+            "SubSecTimeOriginal": "702271",
+            "SubSecTimeDigitized": "702271",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 770,
+            "SensingMethod": 1,
+            "SceneType": 1,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              22,
+              49.8719
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              120,
+              32,
+              7.1052
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1196.72,
+            "GPSTimeStamp": [
+              3,
+              13,
+              14
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:05"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1593907200000,
+        "gpsTimeStr": "Sat Jul 04 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593919889000,
+        "imgTimeStr": "Sat Jul 04 2020 20:31:29 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/other/20200704_203129.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.535307,
+          44.380519972222224,
+          1196.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:30 12:30:33",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.016666666666666666,
+            "FNumber": 2.4,
+            "ISO": 320,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:30 12:30:33",
+            "CreateDate": "2020:05:30 12:30:33",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 5.906,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "860896",
+            "SubSecTimeOriginal": "860896",
+            "SubSecTimeDigitized": "860896",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              44.3123
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              1,
+              37.0415
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 788.944,
+            "GPSTimeStamp": [
+              19,
+              30,
+              33
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:05:30"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590867033000,
+        "imgTimeStr": "Sat May 30 2020 12:30:33 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200530_123033.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.02695597222223,
+          44.31230897222222,
+          788.944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTE1",
+            "ModifyDate": "2020:07:03 09:28:16",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 800
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.0004697040864255519,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:03 09:28:16",
+            "CreateDate": "2020:07:03 09:28:16",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 11.055,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 9.23,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "535489",
+            "SubSecTimeOriginal": "535489",
+            "SubSecTimeDigitized": "535489",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 770,
+            "SensingMethod": 1,
+            "SceneType": 1,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              35,
+              35.8331
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              119,
+              37,
+              19.2251
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 707.813,
+            "GPSTimeStamp": [
+              16,
+              28,
+              3
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:03"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1593734400000,
+        "gpsTimeStr": "Thu Jul 02 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593793696000,
+        "imgTimeStr": "Fri Jul 03 2020 09:28:16 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/other/20200703_092816.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.62200697222221,
+          44.593286972222224,
+          707.813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.3",
+            "ModifyDate": "2020:01:04 10:17:08",
+            "YCbCrSubSampling": [
+              2,
+              2
+            ],
+            "YCbCrPositioning": 1,
+            "ExifOffset": 216,
+            "GPSInfo": 2006
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2386,
+            "ThumbnailLength": 7869
+          },
+          "exif": {
+            "ExposureTime": 0.009174311926605505,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 100,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:01:04 10:17:08",
+            "CreateDate": "2020:01:04 10:17:08",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 6.770279200396498,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 4.042226823364731,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 16,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              2484,
+              1233,
+              312,
+              313
+            ],
+            "SubSecTimeOriginal": "157",
+            "SubSecTimeDigitized": "157",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "f3b23e61feb5c0130000000000000000",
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSVersionID": [
+              2,
+              2,
+              0,
+              0
+            ],
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              20,
+              41.11
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              0,
+              2.53
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 858.2805369127517,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0.6069697142531226,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 202.37080381890976,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 202.37080381890976,
+            "GPSDateStamp": "2020:01:04",
+            "GPSHPositioningError": 121.50865438302624
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1578096000000,
+        "gpsTimeStr": "Fri Jan 03 2020 16:00:00 GMT-0800 (Pacific Standard Time)",
+        "imgTime": 1578161828000,
+        "imgTimeStr": "Sat Jan 04 2020 10:17:08 GMT-0800 (Pacific Standard Time)",
+        "imgPath": "hikes/other/IMG_5229.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.00070277777778,
+          44.34475277777778,
+          858.2805369127517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:30 14:15:42",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.05555555555555555,
+            "FNumber": 1.5,
+            "ISO": 250,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:30 14:15:42",
+            "CreateDate": "2020:05:30 14:15:42",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 4.129,
+            "ApertureValue": 1.16,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "123256",
+            "SubSecTimeOriginal": "123256",
+            "SubSecTimeDigitized": "123256",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              16,
+              54.9516
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              3,
+              4.734
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 632.106,
+            "GPSTimeStamp": [
+              21,
+              15,
+              41
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:05:30"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590873342000,
+        "imgTimeStr": "Sat May 30 2020 14:15:42 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200530_141542.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.051315,
+          44.281931,
+          632.106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTE1",
+            "ModifyDate": "2020:07:03 16:17:15",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 800
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.005050505050505051,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:03 16:17:15",
+            "CreateDate": "2020:07:03 16:17:15",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 7.629,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 5.9,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 3,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "538486",
+            "SubSecTimeOriginal": "538486",
+            "SubSecTimeDigitized": "538486",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 770,
+            "SensingMethod": 1,
+            "SceneType": 1,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              28.7531
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              14.0711
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1889.368,
+            "GPSTimeStamp": [
+              23,
+              17,
+              3
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:03"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1593734400000,
+        "gpsTimeStr": "Thu Jul 02 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593818235000,
+        "imgTimeStr": "Fri Jul 03 2020 16:17:15 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/20200703_161715.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68724197222222,
+          44.30798697222222,
+          1889.368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:31 08:52:09",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.016666666666666666,
+            "FNumber": 2.4,
+            "ISO": 200,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:31 08:52:09",
+            "CreateDate": "2020:05:31 08:52:09",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 5.906,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "639727",
+            "SubSecTimeOriginal": "639727",
+            "SubSecTimeDigitized": "639727",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              14,
+              23.5644
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              3,
+              31.4208
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 528.942,
+            "GPSTimeStamp": [
+              15,
+              52,
+              5
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:05:31"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1590883200000,
+        "gpsTimeStr": "Sat May 30 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590940329000,
+        "imgTimeStr": "Sun May 31 2020 08:52:09 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200531_085209.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.058728,
+          44.239879,
+          528.942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTE1",
+            "ModifyDate": "2020:07:04 17:16:25",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 800
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.001148105625717566,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:04 17:16:25",
+            "CreateDate": "2020:07:04 17:16:25",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 9.765,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 7.87,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "849408",
+            "SubSecTimeOriginal": "849408",
+            "SubSecTimeDigitized": "849408",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 770,
+            "SensingMethod": 1,
+            "SceneType": 1,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              33,
+              51.8976
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              119,
+              38,
+              54.8988
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 632.064,
+            "GPSTimeStamp": [
+              0,
+              16,
+              23
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:05"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1593907200000,
+        "gpsTimeStr": "Sat Jul 04 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593908185000,
+        "imgTimeStr": "Sat Jul 04 2020 17:16:25 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/other/20200704_171625.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.648583,
+          44.564415999999994,
+          632.064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTE1",
+            "ModifyDate": "2020:07:04 10:34:37",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 800
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.0011001100110011,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:04 10:34:37",
+            "CreateDate": "2020:07:04 10:34:37",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 9.828,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 8.06,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "498131",
+            "SubSecTimeOriginal": "498131",
+            "SubSecTimeDigitized": "498131",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 770,
+            "SensingMethod": 1,
+            "SceneType": 1,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              17,
+              39.0912
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              3.8148
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 2097.04,
+            "GPSTimeStamp": [
+              17,
+              34,
+              38
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:04"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1593820800000,
+        "gpsTimeStr": "Fri Jul 03 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593884077000,
+        "imgTimeStr": "Sat Jul 04 2020 10:34:37 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/20200704_103437.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.684393,
+          44.294191999999995,
+          2097.04
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTE1",
+            "ModifyDate": "2020:07:04 10:01:47",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 800
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.0033112582781456954,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:04 10:01:47",
+            "CreateDate": "2020:07:04 10:01:47",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 8.238,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 6.38,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 2,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "566115",
+            "SubSecTimeOriginal": "566115",
+            "SubSecTimeDigitized": "566115",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 770,
+            "SensingMethod": 1,
+            "SceneType": 1,
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              17,
+              45.3155
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              35.2103
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 2049.531,
+            "GPSTimeStamp": [
+              17,
+              1,
+              47
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:04"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1593820800000,
+        "gpsTimeStr": "Fri Jul 03 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593882107000,
+        "imgTimeStr": "Sat Jul 04 2020 10:01:47 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/20200704_100147.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.69311397222222,
+          44.29592097222222,
+          2049.531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UES7DTD1",
+            "ModifyDate": "2020:05:30 12:48:22",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.016666666666666666,
+            "FNumber": 2.4,
+            "ISO": 160,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:05:30 12:48:22",
+            "CreateDate": "2020:05:30 12:48:22",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 5.906,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "468394",
+            "SubSecTimeOriginal": "468394",
+            "SubSecTimeDigitized": "468394",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              25.8876
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              1,
+              51.5747
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 701.809,
+            "GPSTimeStamp": [
+              19,
+              48,
+              22
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:05:30"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590868102000,
+        "imgTimeStr": "Sat May 30 2020 12:48:22 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/20200530_124822.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.03099297222222,
+          44.307190999999996,
+          701.809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.3.1",
+            "ModifyDate": "2020:04:19 12:19:30",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1956
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2324,
+            "ThumbnailLength": 9611
+          },
+          "exif": {
+            "ExposureTime": 0.0005920663114268798,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 25,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:04:19 12:19:30",
+            "CreateDate": "2020:04:19 12:19:30",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 10.722115199383548,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 10.123572938689218,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              1890,
+              1408,
+              206,
+              205
+            ],
+            "SubSecTimeOriginal": "135",
+            "SubSecTimeDigitized": "135",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              9,
+              2.37
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              12,
+              40.17
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1137.2367149758454,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0.01780809648913303,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 79.666259765625,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 79.666259765625,
+            "GPSDateStamp": "2020:04:19",
+            "GPSHPositioningError": 10.655091969493046
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1587254400000,
+        "gpsTimeStr": "Sat Apr 18 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1587323970000,
+        "imgTimeStr": "Sun Apr 19 2020 12:19:30 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/other/IMG_8347.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.21115833333333,
+          44.15065833333333,
+          1137.2367149758454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.4.1",
+            "ModifyDate": "2020:05:29 18:15:09",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1956
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2324,
+            "ThumbnailLength": 10174
+          },
+          "exif": {
+            "ExposureTime": 0.0008298755186721991,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 25,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:05:29 18:15:09",
+            "CreateDate": "2020:05:29 18:15:09",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 10.234601043997017,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 9.539828889442644,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              1485,
+              1530,
+              190,
+              190
+            ],
+            "SubSecTimeOriginal": "021",
+            "SubSecTimeDigitized": "021",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              22,
+              24.51
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              121,
+              59,
+              45.58
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 919.157926102503,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 154.48828900357285,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 154.48828900357285,
+            "GPSDateStamp": "2020:05:30",
+            "GPSHPositioningError": 4.619860555726443
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590801309000,
+        "imgTimeStr": "Fri May 29 2020 18:15:09 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/IMG_8632.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99599444444445,
+          44.373475,
+          919.157926102503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
             "ImageWidth": 4032,
             "ImageHeight": 3024,
             "Make": "samsung",
@@ -136,6 +3396,282 @@
           -117.27055299999999,
           45.228696972222224,
           2358.733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.5.1",
+            "ModifyDate": "2020:07:03 18:56:11",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1956
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2324,
+            "ThumbnailLength": 11782
+          },
+          "exif": {
+            "ExposureTime": 0.002288329519450801,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 25,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:07:03 18:56:11",
+            "CreateDate": "2020:07:03 18:56:11",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 8.770436684760593,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 8.050466660252093,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              2013,
+              1511,
+              2217,
+              1330
+            ],
+            "SubSecTimeOriginal": "930",
+            "SubSecTimeDigitized": "930",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              29.04
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              13.41
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1918.1937799043062,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0.08724964038336,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 177.05769348424596,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 177.05769348424596,
+            "GPSDateStamp": "2020:07:04",
+            "GPSHPositioningError": 4.40149048549309
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1593820800000,
+        "gpsTimeStr": "Fri Jul 03 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593827771000,
+        "imgTimeStr": "Fri Jul 03 2020 18:56:11 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/IMG_8893.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68705833333334,
+          44.30806666666666,
+          1918.1937799043062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.4.1",
+            "ModifyDate": "2020:05:30 12:52:02",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1956
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2324,
+            "ThumbnailLength": 14011
+          },
+          "exif": {
+            "ExposureTime": 0.016666666666666666,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 100,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:05:30 12:52:02",
+            "CreateDate": "2020:05:30 12:52:02",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 5.915456732763627,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 3.13374407066136,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              1789,
+              2123,
+              392,
+              392
+            ],
+            "SubSecTimeOriginal": "860",
+            "SubSecTimeDigitized": "860",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              24.02
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              1,
+              53.76
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 701.7546153846154,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 76.4539641943734,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 76.4539641943734,
+            "GPSDateStamp": "2020:05:30",
+            "GPSHPositioningError": 4.887974744092605
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590868322000,
+        "imgTimeStr": "Sat May 30 2020 12:52:02 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/IMG_8675.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0316,
+          44.30667222222222,
+          701.7546153846154
         ]
       }
     },
@@ -688,6 +4224,706 @@
           -117.28480897222222,
           45.16727097222222,
           2568.877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.4.1",
+            "ModifyDate": "2020:05:29 19:19:02",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1956
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2324,
+            "ThumbnailLength": 14322
+          },
+          "exif": {
+            "ExposureTime": 0.009433962264150943,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 100,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:05:29 19:19:02",
+            "CreateDate": "2020:05:29 19:19:02",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 6.727150259067358,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 3.949629215055268,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              2591,
+              943,
+              139,
+              142
+            ],
+            "SubSecTimeOriginal": "092",
+            "SubSecTimeDigitized": "092",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              21,
+              40.38
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              121,
+              59,
+              29.29
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 924.1718494271686,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0.018458466972634216,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 54.02972412109375,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 54.02972412109375,
+            "GPSDateStamp": "2020:05:30",
+            "GPSHPositioningError": 8.773176371662812
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1590796800000,
+        "gpsTimeStr": "Fri May 29 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1590805142000,
+        "imgTimeStr": "Fri May 29 2020 19:19:02 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/McKenzieRiver/IMG_8635.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.99146944444445,
+          44.36121666666667,
+          924.1718494271686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.5.1",
+            "ModifyDate": "2020:07:04 13:28:47",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1956
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2324,
+            "ThumbnailLength": 12823
+          },
+          "exif": {
+            "ExposureTime": 0.001366120218579235,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 25,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:07:04 13:28:47",
+            "CreateDate": "2020:07:04 13:28:47",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 9.515826791592808,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 8.855402594830148,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              2013,
+              1511,
+              2217,
+              1330
+            ],
+            "SubSecTimeOriginal": "368",
+            "SubSecTimeDigitized": "368",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              30.33
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              9.97
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1930.660535117057,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 94.22198485142746,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 94.22198485142746,
+            "GPSDateStamp": "2020:07:04",
+            "GPSHPositioningError": 4.173173532366873
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1593820800000,
+        "gpsTimeStr": "Fri Jul 03 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593894527000,
+        "imgTimeStr": "Sat Jul 04 2020 13:28:47 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/IMG_8916.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68610277777778,
+          44.308425,
+          1930.660535117057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.1.3",
+            "ModifyDate": "2019:10:20 17:13:32",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1944
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2312,
+            "ThumbnailLength": 15022
+          },
+          "exif": {
+            "ExposureTime": 0.016666666666666666,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 100,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2019:10:20 17:13:32",
+            "CreateDate": "2019:10:20 17:13:32",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 5.915456732763627,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 3.1752664218194955,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 16,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              1667,
+              1169,
+              291,
+              291
+            ],
+            "SubSecTimeOriginal": "240",
+            "SubSecTimeDigitized": "240",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              43,
+              58,
+              24.38
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              71,
+              17,
+              6.48
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 564.519705222685,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 340.2809905921417,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 340.2809905921417,
+            "GPSDateStamp": "2019:10:20",
+            "GPSHPositioningError": 4.912247874301753
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1571529600000,
+        "gpsTimeStr": "Sat Oct 19 2019 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1571616812000,
+        "imgTimeStr": "Sun Oct 20 2019 17:13:32 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/other/IMG_7610.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.28513333333333,
+          43.97343888888889,
+          564.519705222685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "Apple",
+            "Model": "iPhone XR",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "13.3.1",
+            "ModifyDate": "2020:04:19 15:16:53",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 206,
+            "GPSInfo": 1956
+          },
+          "thumbnail": {
+            "Compression": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "ThumbnailOffset": 2324,
+            "ThumbnailLength": 13761
+          },
+          "exif": {
+            "ExposureTime": 0.004484304932735426,
+            "FNumber": 1.8,
+            "ExposureProgram": 2,
+            "ISO": 25,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                51,
+                49
+              ]
+            },
+            "DateTimeOriginal": "2020:04:19 15:16:53",
+            "CreateDate": "2020:04:19 15:16:53",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 7.797784160853508,
+            "ApertureValue": 1.6959938128383605,
+            "BrightnessValue": 7.069731787566106,
+            "ExposureCompensation": 0,
+            "MeteringMode": 5,
+            "Flash": 24,
+            "FocalLength": 4.25,
+            "SubjectArea": [
+              2013,
+              1511,
+              2217,
+              1330
+            ],
+            "SubSecTimeOriginal": "871",
+            "SubSecTimeDigitized": "871",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 65535,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 2,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "LensInfo": [
+              4.25,
+              4.25,
+              1.8,
+              1.8
+            ],
+            "LensMake": "Apple",
+            "LensModel": "iPhone XR back camera 4.25mm f/1.8"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              11,
+              32.65
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              122,
+              3,
+              10.78
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 492.0804224207961,
+            "GPSSpeedRef": "K",
+            "GPSSpeed": 0.10957857221589448,
+            "GPSImgDirectionRef": "T",
+            "GPSImgDirection": 216.37387074357193,
+            "GPSDestBearingRef": "T",
+            "GPSDestBearing": 216.37387074357193,
+            "GPSDateStamp": "2020:04:19",
+            "GPSHPositioningError": 17.041757840991977
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1587254400000,
+        "gpsTimeStr": "Sat Apr 18 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1587334613000,
+        "imgTimeStr": "Sun Apr 19 2020 15:16:53 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/other/IMG_8346.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.05299444444444,
+          44.19240277777777,
+          492.0804224207961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "GIMP 2.10.18",
+            "ModifyDate": "2020:07:06 20:24:45",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 214,
+            "GPSInfo": 732
+          },
+          "thumbnail": {
+            "ImageWidth": 256,
+            "ImageHeight": 192,
+            "BitsPerSample": [
+              8,
+              8,
+              8
+            ],
+            "Compression": 6,
+            "PhotometricInterpretation": 6,
+            "SamplesPerPixel": 3,
+            "ThumbnailOffset": 1058,
+            "ThumbnailLength": 11836
+          },
+          "exif": {
+            "ExposureTime": 0.00546448087431694,
+            "FNumber": 2.4,
+            "ExposureProgram": 2,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:07:03 19:22:20",
+            "CreateDate": "2020:07:03 19:22:20",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 7.516,
+            "ApertureValue": 2.52,
+            "BrightnessValue": 6.37,
+            "ExposureCompensation": 0.6,
+            "MaxApertureValue": 1.16,
+            "MeteringMode": 3,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "290612",
+            "SubSecTimeOriginal": "290612",
+            "SubSecTimeDigitized": "290612",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "SensingMethod": 1,
+            "SceneType": {
+              "type": "Buffer",
+              "data": [
+                1
+              ]
+            },
+            "ExposureMode": 0,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "SceneCaptureType": 0,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              44,
+              18,
+              30.6432
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              118,
+              41,
+              12.2424
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 1915.424,
+            "GPSTimeStamp": [
+              2,
+              21,
+              52
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:07:04"
+          },
+          "interoperability": {}
+        },
+        "gpsTime": 1593820800000,
+        "gpsTimeStr": "Fri Jul 03 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1593829340000,
+        "imgTimeStr": "Fri Jul 03 2020 19:22:20 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/StrawberryLake/20200703_192220.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.686734,
+          44.308512,
+          1915.424
         ]
       }
     }

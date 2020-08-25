@@ -60,9 +60,10 @@ def analyzeGpx(name):
     alt_inc = 0
     alt_dec = 0
 
-    # elevation moving average over 25 points
-    alt_inc25 = 0
-    alt_dec25 = 0
+    # elevation moving average over 50 points
+    alt_inc50 = 0
+    alt_dec50 = 0
+    dist500 = 0
     
     for index in range(len(data)):
         if index == 0:
@@ -78,13 +79,6 @@ def analyzeGpx(name):
             dist_hav_no_alt.append(dist_hav_no_alt[-1] + distance_hav_2d)
             
             alt_d = (start.elevation - stop.elevation) * M_TO_FT
-            if (index%25==0):
-                startel = data[index-25].elevation 
-                dif_elev = (stop.elevation - startel) *M_TO_FT
-                if (dif_elev > 0):
-                    alt_inc25 = alt_inc25 + dif_elev
-                else:
-                    alt_dec25 = alt_dec25 - dif_elev
 
             if (alt_d > 0):
                 alt_inc = alt_inc + alt_d
@@ -100,7 +94,18 @@ def analyzeGpx(name):
             time_dif.append(time_delta)
                     
             dist_hav.append(dist_hav[-1] + distance_hav_3d)
+
+            if (index%50==0):
+                startel = data[index-50].elevation 
+                dif_elev = (stop.elevation - startel) *M_TO_FT
+                if (dif_elev > 0):
+                    alt_inc50 = alt_inc50 + dif_elev
+                else:
+                    alt_dec50 = alt_dec50 - dif_elev
+            if (index%500==0):
+                dist500 = dist500 + (dist_hav[index] - dist_hav[index-500]) 
     
+    print(dist500)
     df['dist_hav_2d'] = dist_hav_no_alt
     df['dis_hav_3d'] = dist_hav
     df['alt_dif'] = alt_dif
@@ -111,10 +116,10 @@ def analyzeGpx(name):
     
     
     #print('Haversine 3D : ', dist_hav[-1])
-    print('Distance : ', dist_hav[-1], " miles")
+    #print('Distance : ', dist_hav[-1], " miles")
     #print('Total Time : ', floor(sum(time_dif)/60),' min ', int(sum(time_dif)%60),' sec ')
     timeTot = "%i hours, %i minutes" %(floor(sum(time_dif)/60/60), floor(sum(time_dif)/60%60))
-    print('Total Time : ', floor(sum(time_dif)/60/60),' hours ', floor(sum(time_dif)/60%60),' min ', int(sum(time_dif)%60),' sec ')
+    #print('Total Time : ', floor(sum(time_dif)/60/60),' hours ', floor(sum(time_dif)/60%60),' min ', int(sum(time_dif)%60),' sec ')
     
     fig = px.line_3d(df, x='lon', y='lat', z='alt', labels={'lon':'Longitude', 'lat':'Latitude', 'alt':'Elevation (feet)'})
     #fig = px.Scatter3D(df, x='lon', y='lat', z='alt', labels={'lon':'Longitude', 'lat':'Latitude', 'alt':'Elevation (feet)'}, marker=dict(size=1, color=df['spd'], colorscale="Viridis"))
@@ -126,11 +131,14 @@ def analyzeGpx(name):
     #fig2.write_html("%s_elev.html"%nameProj)
     fig2.write_html("%s/elev.html"%dirName)
 
-    return [name, nameRecording, timeTot, data[0].time, data[-1].time, "%.2f"%dist_hav[-1], "%.0f"%alt_inc25, "%.0f"%alt_dec25]
+    #return [name, nameRecording, timeTot, data[0].time, data[-1].time, "%.2f"%dist_hav[-1], "%.0f"%alt_inc25, "%.0f"%alt_dec25]
+    return [name, nameRecording, timeTot, data[0].time, data[-1].time, "%.2f"%dist500, "%.0f"%alt_inc50, "%.0f"%alt_dec50]
     
 
-#data = analyzeGpx("IceLakeMatterhorn")
-data = analyzeGpx("WallowaMountainsLakesBasin")
-print(data)
+
+if __name__ == "__main__":
+    #data = analyzeGpx("IceLakeMatterhorn")
+    data = analyzeGpx("WallowaMountainsLakesBasin")
+    print(data)
 
 

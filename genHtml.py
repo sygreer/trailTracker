@@ -129,5 +129,6 @@ def genHtml(data):
         f.write(indent(doc.getvalue(), indent_text=True)) 
 
 
-genHtml(data)
+if __name__ =="__main__":
+    genHtml(data)
 

@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
 
     <style>
+    img { 
+        border: 0;
+        image-orientation: from-image;
+      }
     .custom-popup .leaflet-popup-content-wrapper {
       background:#000000cc;
       color:#fff;
@@ -170,7 +174,7 @@
             var layer = L.geoJson(geojson, {
                 onEachFeature: function(feature, layer) {
                     var imgPath = feature.properties.imgPath;
-                    var html = '<a href="'+imgPath+'" target="_blank">'+imgPath+'<br/><img width="400px" src="'+imgPath+'"</img></a><br/>';
+                    var html = '<a href="../../'+imgPath+'" target="_blank">'+imgPath+'<br/><img width="400px" src="../../'+imgPath+'"</img></a><br/>';
                     html += '<b>Timestamp: </b>' + feature.properties.gpsTimeStr + '<br/>';
                     html += '<b>Latitude: </b>' + feature.geometry.coordinates[1].toFixed(5) + '<br/>';
                     html += '<b>Longitude: </b>' + feature.geometry.coordinates[0].toFixed(5) + '<br/>';
