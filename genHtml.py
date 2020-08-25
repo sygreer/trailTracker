@@ -37,9 +37,9 @@ def genHtml(data):
         with tag('body'):
             with tag('div', id = 'canvas_proj', style="width: 850px;"):
                 with tag('div', id='nav'):
-                    with tag('a', href='../'):
+                    with tag('a', href='../../'):
                         with tag('button', type='submit'):
-                            text("&#8592; Back home")
+                            text("← Back")
                 with tag("h1"):
                     #text("Hiking and Travel")
                     text(data[1])
@@ -79,31 +79,26 @@ def genHtml(data):
                     doc.stag("br")
                     doc.stag("br")
 
-                    with tag("h2"):
-                        text("Details")
-
                     moreInfo= 'hikes/%s/more.html'%data[0]
                     if (exists(moreInfo)):
+                        with tag("h2"):
+                            text("Details")
                         with tag("div", id="more"):
                             text("")
-                    else:
-                        text("No further details have been added for this hike.")
-                    doc.stag("br")
-                    doc.stag("br")
+                        doc.stag("br")
+                        doc.stag("br")
 
-                    with tag("h2"):
-                        text("Photos")
-                    if (len(pics) ==0):
-                        text("No pictures have been added for this hike.")
-                    else:
+                    if (len(pics) !=0):
+                        with tag("h2"):
+                            text("Photos")
                         text("Click on the picture to view it full size.")
                         doc.stag("br")
                         for pic in pics:
                             with tag("a", href=pic):
                                 doc.stag("img", src=pic, width="280px")
-
-                    doc.stag("br")
-                    doc.stag("br")
+                        doc.stag("br")
+                        doc.stag("br")
+                        
                     with tag("h2"):
                         text("Elevation profile")
                     with tag("a", href="elev.html", target="eleviframe"):

@@ -189,10 +189,8 @@
         //var totalMileage = 0
 
 
-        //dayHikes = ['KentuckyFalls.gpx', 'EmoryPeak.gpx', 'CaprockCanyon.gpx','HolyGhost.gpx', 'DaleBall1.gpx','DaleBall2.gpx','Mitchell.gpx','Pajarito.gpx', 'Picuris.gpx', 'Austin.gpx','OhBeJoyful.gpx','RustlersGulch.gpx', 'WaldenPond.gpx', 'MountChocorua.gpx', 'NH.gpx','CadillacMountain.gpx','CapeLookout.gpx','CapeFalcon.gpx','ClatsopLoop.gpx','NorthForkMiddleFork.gpx','FallCreek.gpx','LostMine.gpx','CerroGrande.gpx','OverlookPark.gpx','HorseRock.gpx','SweetCreekFalls.gpx','SpencerButte.gpx','DorrisRanch.gpx', 'SuttonMountain.gpx', 'RosaryLakes.gpx','BlueBasin.gpx', 'CanyonCreekMeadows.gpx', 'CastleRock.gpx', 'ObsidianTrail.gpx','BrokenTop.gpx', 'ScottMountain.gpx'];
-        dayHikes = [];
-        //backpacking = ['McKenzieRiver.gpx','SpiritLake.gpx','StrawberryLake.gpx','JeffersonPark.gpx','ChambersLakes.gpx','IceLakeMatterhorn.gpx','WallowaMountainsLakesBasin.gpx'];
-        backpacking = ['IceLakeMatterhorn', 'WallowaMountainsLakesBasin', 'StrawberryLake'];
+        dayHikes = ['KentuckyFalls', 'EmoryPeak', 'CaprockCanyon','HolyGhost', 'DaleBall1','DaleBall2','Mitchell','Pajarito', 'Picuris', 'Austin','OhBeJoyful','RustlersGulch', 'WaldenPond', 'MountChocorua', 'NH','CadillacMountain','CapeLookout','CapeFalcon','ClatsopLoop','NorthForkMiddleFork','FallCreek','LostMine','CerroGrande','OverlookPark','HorseRock','SweetCreekFalls','SpencerButte','DorrisRanch', 'SuttonMountain', 'RosaryLakes','BlueBasin', 'CanyonCreekMeadows', 'CastleRock', 'ObsidianTrail','BrokenTop', 'ScottMountain'];
+        backpacking = ['McKenzieRiver','SpiritLake','StrawberryLake','JeffersonPark','ChambersLakes','IceLakeMatterhorn','WallowaMountainsLakesBasin'];
 
         totalHikes = dayHikes.length + backpacking.length
 
@@ -247,6 +245,7 @@
             //var gpx = 'McKenzieRiver.gpx' // URL to your GPX file or the GPX itself
             //var gpx = "gpx/"+dayHikes[index];
             var gpx = "hikes/" + dayHikes[index]+"/"+dayHikes[index]+".gpx";
+            var hikeUrl = "hikes/" + dayHikes[index];
             var g = new L.GPX(gpx, {
                 async: true,
 
@@ -263,6 +262,7 @@
                     lineCap: 'round'
                 }
             });
+            g.name = hikeUrl
 
             g.on('loaded', function(e) {
                 var gpx = e.target,
@@ -273,7 +273,7 @@
                 movspeed = gpx.get_moving_speed_imp().toFixed(2);
                 elevmin = gpx.get_elevation_min_imp().toFixed(2);
                 elevmax = gpx.get_elevation_max_imp().toFixed(2);
-                var info = "<h3>" + namev + "</h3></br>" +
+                var info = "<a href=" + gpx.name + " target='_blank'><h3>" + namev + "</h3></a></br>" +
                 "<b>Start time: </b>" + starttm+ "</br>" +
                 "<b>End time: </b>" + endtm+ "</br>" +
                 "<b>Distance: </b>" + distMi+ " miles </br>" +

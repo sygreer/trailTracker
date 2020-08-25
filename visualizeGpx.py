@@ -11,6 +11,7 @@ import pandas as pd
 #import plotly.graph_objs as go
 import haversine
 import plotly.express as px
+import numpy as np
 
 M_TO_FT = 3.28084
 FT_TO_MI = 1.0/5280
@@ -105,34 +106,38 @@ def analyzeGpx(name):
             if (index%500==0):
                 dist500 = dist500 + (dist_hav[index] - dist_hav[index-500]) 
     
+    increase = gpx.get_uphill_downhill()[0] * M_TO_FT
+    decrease = gpx.get_uphill_downhill()[1] * M_TO_FT
+    length = gpx.length_2d()*M_TO_FT*FT_TO_MI
+
+    ratioCorrection = 0.65
+
+    dist500 = dist500*ratioCorrection
     print(dist500)
+
+    ratioCorrection2 = dist500/dist_hav[-1]
+
     df['dist_hav_2d'] = dist_hav_no_alt
-    df['dis_hav_3d'] = dist_hav
+    df['dis_hav_3d'] = np.asarray(dist_hav) * ratioCorrection2
     df['alt_dif'] = alt_dif
     df['time_dif'] = time_dif
     df['dis_dif_hav_2d'] = dist_dif_hav_2d
 
-    df['spd'] = (df['dis_dif_hav_2d'] / df['time_dif']) * 3.6 * 0.621371 # speed in mph
+    #df['spd'] = (df['dis_dif_hav_2d'] / df['time_dif']) * 3.6 * 0.621371 # speed in mph
     
+
     
-    #print('Haversine 3D : ', dist_hav[-1])
-    #print('Distance : ', dist_hav[-1], " miles")
-    #print('Total Time : ', floor(sum(time_dif)/60),' min ', int(sum(time_dif)%60),' sec ')
     timeTot = "%i hours, %i minutes" %(floor(sum(time_dif)/60/60), floor(sum(time_dif)/60%60))
-    #print('Total Time : ', floor(sum(time_dif)/60/60),' hours ', floor(sum(time_dif)/60%60),' min ', int(sum(time_dif)%60),' sec ')
     
     fig = px.line_3d(df, x='lon', y='lat', z='alt', labels={'lon':'Longitude', 'lat':'Latitude', 'alt':'Elevation (feet)'})
-    #fig = px.Scatter3D(df, x='lon', y='lat', z='alt', labels={'lon':'Longitude', 'lat':'Latitude', 'alt':'Elevation (feet)'}, marker=dict(size=1, color=df['spd'], colorscale="Viridis"))
-    #fig.show()
-    #fig.write_html("%s_3d.html"%nameProj)
     fig.write_html("%s/3d.html"%dirName)
     
     fig2 = px.line(df, x='dis_hav_3d', y='alt', labels={'dis_hav_3d':'Distance (miles)', 'alt':'Altitude (feet)'})
-    #fig2.write_html("%s_elev.html"%nameProj)
     fig2.write_html("%s/elev.html"%dirName)
 
     #return [name, nameRecording, timeTot, data[0].time, data[-1].time, "%.2f"%dist_hav[-1], "%.0f"%alt_inc25, "%.0f"%alt_dec25]
     return [name, nameRecording, timeTot, data[0].time, data[-1].time, "%.2f"%dist500, "%.0f"%alt_inc50, "%.0f"%alt_dec50]
+    #return [name, nameRecording, timeTot, data[0].time, data[-1].time, "%.2f"%length, "%.0f"%increase, "%.0f"%decrease]
     
 
 
