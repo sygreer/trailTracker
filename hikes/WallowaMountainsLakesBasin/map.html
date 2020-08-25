@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Hiking and Travel map</title>
+    <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+
+    <style>
+    .custom-popup .leaflet-popup-content-wrapper {
+      background:#000000cc;
+      color:#fff;
+      font-size:16px;
+      line-height:24px;
+      }
+    .custom-popup .leaflet-popup-content-wrapper a {
+      color:rgba(255,255,255,1.0);
+      }
+    .custom-popup .leaflet-popup-tip-container {
+      width:30px;
+      height:15px;
+      }
+    .custom-popup .leaflet-popup-tip {
+      background:#000000cc;
+      }
+
+    .custom-popup h3{
+          text-align: center;
+          font-size: 18px;
+          margin: 2px 2px 2px;
+          color: #ffffff;
+      }
+        #map {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        /*Setup*/
+        html,
+        body {
+          padding: 0;
+          margin: 0;
+        }
+        html,
+        body,
+        #mapid {
+          height: 100%;
+          width: 100%;
+        }
+
+        /*Title specific*/
+        .title {
+          padding: 6px 8px;
+          font: 14px Arial, Helvetica, sans-serif;
+          background: white;
+          background: rgba(255, 255, 255, 0.6);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          line-height: 24px;
+          text-align: center;
+          color: #555;
+        }
+        .title h4 {
+          text-align: center;
+          font-size: 18px;
+          margin: 2px 12px 8px;
+          color: #777;
+        }
+
+        .title span {
+          position: relative;
+          bottom: 3px;
+        }
+        
+        .title i {
+          width: 18px;
+          height: 18px;
+          float: right;
+          margin: 0 8px 0 0;
+          opacity: 1.0;
+        }
+        
+        .jitle i.icon {
+          background-size: 18px;
+          background-color: rgba(255, 255, 255, 1);
+        }
+        
+        /*Legend specific*/
+        .legend {
+          padding: 6px 8px;
+          font: 14px Arial, Helvetica, sans-serif;
+          background: white;
+          background: rgba(255, 255, 255, 0.6);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          line-height: 24px;
+          color: #555;
+        }
+        .legend h4 {
+          text-align: center;
+          font-size: 16px;
+          margin: 2px 12px 8px;
+          color: #777;
+        }
+        
+        .legend span {
+          position: relative;
+          bottom: 3px;
+        }
+        
+        .legend i {
+          width: 18px;
+          height: 18px;
+          float: left;
+          margin: 0 8px 0 0;
+          opacity: 1.0;
+        }
+        
+        .legend i.icon {
+          background-size: 18px;
+          background-color: rgba(255, 255, 255, 0);
+        }
+  </style>
+</head>
+<body>
+
+    <div class="custom-popup" id="map"></div>
+
+    <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet-src.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>-->
+    <script src="../../gpx.min.js"></script>
+
+    <script>
+        /*var map = L.map('map').on('load', onMapLoad).setView([44.0,-119.723], 7);*/
+        //var map = L.map('map').setView([44.0,-119.723], 7);
+        var map = L.map('map').setView([44.0,-119.723], 7);
+        map.options.minZoom=4;
+        /*map.setView([39.8283, -98.5795], 5)*/
+
+        var Esri_WorldTopoMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        	//attribution: 'Tiles &copy; Esri'
+            attribution: "Tiles &copy; Esri. Made using <a href='https://github.com/mpetazzoni/leaflet-gpx'>Leaflet GPX</a> &amp; <a href='https://github.com/hallahan/exif-to-geojson'>EXIF To GeoJSON</a>. Best viewed on desktop."
+        	//attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+        }).addTo(map);
+
+        var myIcon = L.icon({
+            iconUrl: '../../dbpin2.png',
+            iconSize: [50, 50],
+            iconAnchor: [25, 33],
+            popupAnchor: [0, -12],
+        });
+
+        var myIcon2 = L.icon({
+            iconUrl: '../../blackpin2.png',
+            iconSize: [100, 100],
+            iconAnchor: [50, 55],
+            popupAnchor: [0, -25],
+        });
+
+        $.get('../../exif.geojson', function (data) {
+            var geojson = null;
+            if (typeof data === 'string') {
+                geojson = JSON.parse(data)
+            } else {
+                geojson = data;
+            }
+            var layer = L.geoJson(geojson, {
+                onEachFeature: function(feature, layer) {
+                    var imgPath = feature.properties.imgPath;
+                    var html = '<a href="'+imgPath+'" target="_blank">'+imgPath+'<br/><img width="400px" src="'+imgPath+'"</img></a><br/>';
+                    html += '<b>Timestamp: </b>' + feature.properties.gpsTimeStr + '<br/>';
+                    html += '<b>Latitude: </b>' + feature.geometry.coordinates[1].toFixed(5) + '<br/>';
+                    html += '<b>Longitude: </b>' + feature.geometry.coordinates[0].toFixed(5) + '<br/>';
+
+                    layer.bindPopup(html, {maxWidth:"auto"});
+                    layer.setIcon(myIcon);
+                }
+            }).addTo(map);
+
+            //map.fitBounds(layer.getBounds());
+        });
+
+        // get current name of directory
+        var loc = window.location.pathname;
+        var dir = loc.split('/');
+        var hike = [dir[dir.length-2]]
+
+        // add backpacking trips
+        for (index = 0; index < hike.length; index++) {
+            //var gpx = 'McKenzieRiver.gpx' // URL to your GPX file or the GPX itself
+            var gpx = "../../hikes/" + hike[index]+"/"+hike[index]+".gpx";
+            var g = new L.GPX(gpx, {
+                async: true,
+                marker_options: {
+                    startIconUrl: '../../pin-icon-wpt.png',
+                    endIconUrl: '../../pin-icon-wpt.png',
+                    shadowUrl: '../../pin-icon-wpt.png',
+                    iconSize: [0,0]
+                },
+                polyline_options: {
+                    color: '#ff0000',
+                    opacity: 1.00,
+                    weight: 2,
+                    lineCap: 'round'
+                }
+            });
+
+            g.on('loaded', function(e) {
+                var gpx = e.target,
+
+                namev = gpx.get_name(),
+                distMi = gpx.get_distance_imp().toFixed(2),
+                starttm = gpx.get_start_time();
+                endtm = gpx.get_end_time();
+                movspeed = gpx.get_moving_speed_imp().toFixed(2);
+                elevmin = gpx.get_elevation_min_imp().toFixed(2);
+                elevmax = gpx.get_elevation_max_imp().toFixed(2);
+                var info = "<h3>" + namev + "</h3></br>" +
+                "<b>Start time: </b>" + starttm+ "</br>" +
+                "<b>End time: </b>" + endtm+ "</br>" +
+                "<b>Distance: </b>" + distMi+ " miles </br>" +
+                "</br><b>Average moving speed: </b>" + movspeed+ " mph </br>" +
+                "<b>Elevation range: </b>" + elevmin + " ft – " + elevmax + " ft</br>" 
+
+            // register popup on click
+                gpx.getLayers()[0].bindPopup(info, {minWidth:550})});
+
+            g.addTo(map);
+
+        }
+        setTimeout(function () {
+          map.fitBounds(g.getBounds());
+        }, 1000);
+
+        
+        /*Title specific*/
+        var titl = L.control({ position: "topright" });
+        
+        titl.addTo(map)
+
+    </script>
+
+
+
+</body>
+</html>

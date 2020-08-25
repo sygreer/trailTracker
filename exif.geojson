@@ -138,6 +138,558 @@
           2358.733
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UEU7ETG1",
+            "ModifyDate": "2020:08:20 11:07:15",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.001148105625717566,
+            "FNumber": 2.4,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:08:20 11:07:15",
+            "CreateDate": "2020:08:20 11:07:15",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 9.766,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "806865",
+            "SubSecTimeOriginal": "806865",
+            "SubSecTimeDigitized": "806865",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              45,
+              9,
+              50.6448
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              117,
+              18,
+              7.9164
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 2895.418,
+            "GPSTimeStamp": [
+              18,
+              6,
+              45
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:08:20"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1597881600000,
+        "gpsTimeStr": "Wed Aug 19 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1597946835000,
+        "imgTimeStr": "Thu Aug 20 2020 11:07:15 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/WallowaMountainsLakesBasin/20200820_110715.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.302199,
+          45.164068,
+          2895.418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 6,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UEU7ETG1",
+            "ModifyDate": "2020:08:21 13:15:52",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.0007468259895444362,
+            "FNumber": 2.4,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:08:21 13:15:52",
+            "CreateDate": "2020:08:21 13:15:52",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 10.387,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "133970",
+            "SubSecTimeOriginal": "133970",
+            "SubSecTimeDigitized": "133970",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              45,
+              9,
+              47.6675
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              117,
+              17,
+              3.3972
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 2491.075,
+            "GPSTimeStamp": [
+              20,
+              15,
+              29
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:08:21"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1597968000000,
+        "gpsTimeStr": "Thu Aug 20 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1598040952000,
+        "imgTimeStr": "Fri Aug 21 2020 13:15:52 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/WallowaMountainsLakesBasin/20200821_131552.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.284277,
+          45.16324097222222,
+          2491.075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UEU7ETG1",
+            "ModifyDate": "2020:08:20 18:51:46",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.0035587188612099642,
+            "FNumber": 2.4,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:08:20 18:51:46",
+            "CreateDate": "2020:08:20 18:51:46",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 8.134,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": -2,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "673807",
+            "SubSecTimeOriginal": "673807",
+            "SubSecTimeDigitized": "673807",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              45,
+              10,
+              47.0783
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              117,
+              18,
+              26.6004
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 2316.333,
+            "GPSTimeStamp": [
+              1,
+              51,
+              36
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:08:21"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1597968000000,
+        "gpsTimeStr": "Thu Aug 20 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1597974706000,
+        "imgTimeStr": "Thu Aug 20 2020 18:51:46 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/WallowaMountainsLakesBasin/20200820_185146.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.307389,
+          45.17974397222222,
+          2316.333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "exif": {
+          "image": {
+            "ImageWidth": 4032,
+            "ImageHeight": 3024,
+            "Make": "samsung",
+            "Model": "SM-G960U1",
+            "Orientation": 1,
+            "XResolution": 72,
+            "YResolution": 72,
+            "ResolutionUnit": 2,
+            "Software": "G960U1UEU7ETG1",
+            "ModifyDate": "2020:08:21 16:27:17",
+            "YCbCrPositioning": 1,
+            "ExifOffset": 240,
+            "GPSInfo": 720
+          },
+          "thumbnail": {},
+          "exif": {
+            "ExposureTime": 0.0010559662090813093,
+            "FNumber": 2.4,
+            "ISO": 50,
+            "ExifVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                50,
+                50,
+                48
+              ]
+            },
+            "DateTimeOriginal": "2020:08:21 16:27:17",
+            "CreateDate": "2020:08:21 16:27:17",
+            "ComponentsConfiguration": {
+              "type": "Buffer",
+              "data": [
+                1,
+                2,
+                3,
+                0
+              ]
+            },
+            "ShutterSpeedValue": 9.887,
+            "ApertureValue": 2.52,
+            "ExposureCompensation": 0,
+            "MaxApertureValue": 1.16,
+            "Flash": 0,
+            "FocalLength": 4.3,
+            "SubSecTime": "885891",
+            "SubSecTimeOriginal": "885891",
+            "SubSecTimeDigitized": "885891",
+            "FlashpixVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            },
+            "ColorSpace": 1,
+            "ExifImageWidth": 4032,
+            "ExifImageHeight": 3024,
+            "InteropOffset": 690,
+            "SensingMethod": 1,
+            "WhiteBalance": 0,
+            "FocalLengthIn35mmFormat": 26,
+            "ImageUniqueID": "H12QSKF06VM H12QSKL01VA"
+          },
+          "gps": {
+            "GPSLatitudeRef": "N",
+            "GPSLatitude": [
+              45,
+              10,
+              2.1755
+            ],
+            "GPSLongitudeRef": "W",
+            "GPSLongitude": [
+              117,
+              17,
+              5.3123
+            ],
+            "GPSAltitudeRef": 0,
+            "GPSAltitude": 2568.877,
+            "GPSTimeStamp": [
+              23,
+              26,
+              17
+            ],
+            "GPSProcessingMethod": {
+              "type": "Buffer",
+              "data": [
+                65,
+                83,
+                67,
+                73,
+                73,
+                0,
+                0,
+                0,
+                71,
+                80,
+                83,
+                0
+              ]
+            },
+            "GPSDateStamp": "2020:08:21"
+          },
+          "interoperability": {
+            "InteropIndex": "R98",
+            "InteropVersion": {
+              "type": "Buffer",
+              "data": [
+                48,
+                49,
+                48,
+                48
+              ]
+            }
+          }
+        },
+        "gpsTime": 1597968000000,
+        "gpsTimeStr": "Thu Aug 20 2020 17:00:00 GMT-0700 (Pacific Daylight Time)",
+        "imgTime": 1598052437000,
+        "imgTimeStr": "Fri Aug 21 2020 16:27:17 GMT-0700 (Pacific Daylight Time)",
+        "imgPath": "hikes/WallowaMountainsLakesBasin/20200821_162717.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.28480897222222,
+          45.16727097222222,
+          2568.877
+        ]
+      }
     }
   ]
 }
