@@ -6,7 +6,7 @@ This package displays data, pictures, and statistics of recorded hikes, or any o
 This package includes sample gpx recordings of hikes and jpg images to use as a template.
 
 ## Preview
-This package is used on my website at [www.sygreer.com/hiking/](www.sygreer.com/hiking/).
+This package is used on my website at [www.sygreer.com/hiking](www.sygreer.com/hiking).
 
 ## Screenshots
 ![](screenshots/frontPage.png)
